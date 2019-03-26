@@ -1,0 +1,33 @@
+{
+  "name": "library",
+  "version": "0.0.1",
+  "description": "Collections of books read.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set DEBUG=app & node app.js",
+    "lint": "eslint app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerryG09/Library.git"
+  },
+  "author": "Oyebamiji Jeremiah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JerryG09/Library/issues"
+  },
+  "homepage": "https://github.com/JerryG09/Library#readme",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "chalk": "1.1.3",
+    "debug": "2.6.6",
+    "express": "4.15.2",
+    "jquery": "3.3.1",
+    "morgan": "1.8.1",
+    "popper.js": "1.14.7"
+  },
+  "devDependencies": {
+    "eslint": "5.15.3"
+  }
+}
